@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:escenariosCalidad="http://www.example.org/escenariosCalidad" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_4jt4MFN3EeWowu9cvt6J7A" selectedViews="_0fBeQFN4EeWowu9cvt6J7A" version="8.1.1">
+  <models xmi:type="escenariosCalidad:Test" href="escenario.escenarioscalidad#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_0fBeQFN4EeWowu9cvt6J7A" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_yLK6YFN6EeWGc7yyzCi9ag" name="Escenarios de calidad">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_yLSPIFN6EeWGc7yyzCi9ag" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_yLSPIVN6EeWGc7yyzCi9ag" type="Sirius" element="_yLK6YFN6EeWGc7yyzCi9ag" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_EiU34FN7EeWGc7yyzCi9ag" type="2001" element="_EiLG4FN7EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_EiWGAFN7EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_EiWGAVN7EeWGc7yyzCi9ag" x="-62" y="-18"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hpn-MFN7EeWGc7yyzCi9ag" type="3003" element="_hpjswFN7EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hpn-MVN7EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hpn-MlN7EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_EiU34VN7EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EiU34lN7EeWGc7yyzCi9ag" x="258" y="72" width="433" height="211"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yLVScFN6EeWGc7yyzCi9ag" type="2001" element="_yLK6YVN6EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_yLgRkFN6EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yLgRkVN6EeWGc7yyzCi9ag" x="-36" y="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yLlxIFN6EeWGc7yyzCi9ag" type="3017" element="_yLK6YlN6EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yLlxIVN6EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yLlxIlN6EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yLVScVN6EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yLVSclN6EeWGc7yyzCi9ag" x="312" y="163" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EiWtEFN7EeWGc7yyzCi9ag" type="2001" element="_EiP_YFN7EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_EiWtE1N7EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_EiWtFFN7EeWGc7yyzCi9ag" x="434"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hpolQFN7EeWGc7yyzCi9ag" type="3003" element="_hplh8FN7EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hpolQVN7EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hpolQlN7EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_EiWtEVN7EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EiWtElN7EeWGc7yyzCi9ag" x="258" y="319" width="433" height="276"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5z80MFN7EeWGc7yyzCi9ag" type="2001" element="_5z3UoFN7EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_5z80M1N7EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5z9bQFN7EeWGc7yyzCi9ag" x="-62" y="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5z-pYFN7EeWGc7yyzCi9ag" type="3002" element="_5z5w4FN7EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_5z-pYVN7EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5z-pYlN7EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5z80MVN7EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5z80MlN7EeWGc7yyzCi9ag" x="469" y="163" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5z9bQVN7EeWGc7yyzCi9ag" type="2001" element="_5z6X8FN7EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_5z-CUFN7EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5z-CUVN7EeWGc7yyzCi9ag" x="-62" y="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5z_3gFN7EeWGc7yyzCi9ag" type="3002" element="_5z7mEFN7EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_5z_3gVN7EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5z_3glN7EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5z9bQlN7EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5z9bQ1N7EeWGc7yyzCi9ag" x="440" y="408" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yLj78FN6EeWGc7yyzCi9ag" type="2001" element="_yLK6ZlN6EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_yLlKEFN6EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yLlKEVN6EeWGc7yyzCi9ag" x="-36" y="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yLmYMFN6EeWGc7yyzCi9ag" type="3017" element="_yLK6Z1N6EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yLmYMVN6EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yLmYMlN6EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yLj78VN6EeWGc7yyzCi9ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yLj78lN6EeWGc7yyzCi9ag" x="300" y="396" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lnlhMFN-EeWGc7yyzCi9ag" type="2001" element="_lnjE8FN-EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_lnmIQFN-EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lnmIQVN-EeWGc7yyzCi9ag" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_o84pEFN-EeWGc7yyzCi9ag" type="3014" element="_o80-sFN-EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_o84pEVN-EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o84pElN-EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_lnlhMVN-EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lnlhMlN-EeWGc7yyzCi9ag" x="714" y="401" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lnmvUFN-EeWGc7yyzCi9ag" type="2001" element="_lnjsAFN-EeWGc7yyzCi9ag">
+            <children xmi:type="notation:Node" xmi:id="_lnmvU1N-EeWGc7yyzCi9ag" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lnmvVFN-EeWGc7yyzCi9ag" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_o84pE1N-EeWGc7yyzCi9ag" type="3014" element="_o82z4FN-EeWGc7yyzCi9ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_o84pFFN-EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o84pFVN-EeWGc7yyzCi9ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_lnmvUVN-EeWGc7yyzCi9ag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lnmvUlN-EeWGc7yyzCi9ag" x="768" y="168" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_yLSPIlN6EeWGc7yyzCi9ag"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_yLK6YVN6EeWGc7yyzCi9ag" name="Servio Pantoja" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Fuente" href="escenarios.escenarioscalidad#//@escenarios.0/@fuente"/>
+        <semanticElements xmi:type="escenariosCalidad:Fuente" href="escenarios.escenarioscalidad#//@escenarios.0/@fuente"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_yLK6YlN6EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_yLK6Y1N6EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_yLK6ZFN6EeWGc7yyzCi9ag"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_yLK6ZVN6EeWGc7yyzCi9ag" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_yLK6ZlN6EeWGc7yyzCi9ag" name="Javier Sanchez" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Fuente" href="escenarios.escenarioscalidad#//@escenarios.1/@fuente"/>
+        <semanticElements xmi:type="escenariosCalidad:Fuente" href="escenarios.escenarioscalidad#//@escenarios.1/@fuente"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_yLK6Z1N6EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_yLK6aFN6EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_yLK6aVN6EeWGc7yyzCi9ag"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_yLK6alN6EeWGc7yyzCi9ag" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EiLG4FN7EeWGc7yyzCi9ag" name="Latencia1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Escenario" href="escenarios.escenarioscalidad#//@escenarios.0"/>
+        <semanticElements xmi:type="escenariosCalidad:Escenario" href="escenarios.escenarioscalidad#//@escenarios.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_hpjswFN7EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hpjswVN7EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5zzqQFN7EeWGc7yyzCi9ag" red="252" green="175" blue="62"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_TS4ssFN8EeWGc7yyzCi9ag" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EiP_YFN7EeWGc7yyzCi9ag" name="Latencia 2" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Escenario" href="escenarios.escenarioscalidad#//@escenarios.1"/>
+        <semanticElements xmi:type="escenariosCalidad:Escenario" href="escenarios.escenarioscalidad#//@escenarios.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_hplh8FN7EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hplh8VN7EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5z2GgFN7EeWGc7yyzCi9ag" red="252" green="175" blue="62"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_TS6h4FN8EeWGc7yyzCi9ag" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_5z3UoFN7EeWGc7yyzCi9ag" name="Competitors" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Estimulo" href="escenarios.escenarioscalidad#//@escenarios.0/@estimulo"/>
+        <semanticElements xmi:type="escenariosCalidad:Estimulo" href="escenarios.escenarioscalidad#//@escenarios.0/@estimulo"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_5z5w4FN7EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5z5w4VN7EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:DotDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5z5w4lN7EeWGc7yyzCi9ag"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5z5w41N7EeWGc7yyzCi9ag" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_5z6X8FN7EeWGc7yyzCi9ag" name="Sales" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Estimulo" href="escenarios.escenarioscalidad#//@escenarios.1/@estimulo"/>
+        <semanticElements xmi:type="escenariosCalidad:Estimulo" href="escenarios.escenarioscalidad#//@escenarios.1/@estimulo"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_5z7mEFN7EeWGc7yyzCi9ag">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5z7mEVN7EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:DotDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5z7mElN7EeWGc7yyzCi9ag"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5z7mE1N7EeWGc7yyzCi9ag" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lnjE8FN-EeWGc7yyzCi9ag" name="latency = 5.0 =" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:MedidaRespuesta" href="escenarios.escenarioscalidad#//@escenarios.0/@medida"/>
+        <semanticElements xmi:type="escenariosCalidad:MedidaRespuesta" href="escenarios.escenarioscalidad#//@escenarios.0/@medida"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_o80-sFN-EeWGc7yyzCi9ag" id="MedidaRespuesta">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o80-sVN-EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o80-slN-EeWGc7yyzCi9ag"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lnjsAFN-EeWGc7yyzCi9ag" name="latency = 5.0 =" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:MedidaRespuesta" href="escenarios.escenarioscalidad#//@escenarios.1/@medida"/>
+        <semanticElements xmi:type="escenariosCalidad:MedidaRespuesta" href="escenarios.escenarioscalidad#//@escenarios.1/@medida"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_o82z4FN-EeWGc7yyzCi9ag" id="MedidaRespuesta">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o82z4VN-EeWGc7yyzCi9ag"/>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o82z4lN-EeWGc7yyzCi9ag"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_yLK6a1N6EeWGc7yyzCi9ag"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer"/>
+      <target xmi:type="escenariosCalidad:Arquitectura" href="escenarios.escenarioscalidad#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_O-mzEFOHEeWyFfONEPRMfA" name="Escenarios Calidad Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_O_GiUFOHEeWyFfONEPRMfA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_O_GiUVOHEeWyFfONEPRMfA" type="Sirius" element="_O-mzEFOHEeWyFfONEPRMfA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_O_824FOHEeWyFfONEPRMfA" type="2001" element="_O-mzKlOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_9d8FOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_9d8VOHEeWyFfONEPRMfA" x="590"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAFZwFOHEeWyFfONEPRMfA" type="3003" element="_O-mzK1OHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAFZwVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAFZwlOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_824VOHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_824lOHEeWyFfONEPRMfA" x="246" y="342" width="589" height="193"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_7BslOHEeWyFfONEPRMfA" type="2001" element="_O-mzJVOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_7owFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_7owVOHEeWyFfONEPRMfA" x="590"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAELo1OHEeWyFfONEPRMfA" type="3003" element="_O-mzJlOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAELpFOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAELpVOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_7Bs1OHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_7BtFOHEeWyFfONEPRMfA" x="246" y="162" width="589" height="139"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_UkwFOHEeWyFfONEPRMfA" type="2001" element="_O-mzEVOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_rKEFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_rKEVOHEeWyFfONEPRMfA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PABvYFOHEeWyFfONEPRMfA" type="3003" element="_O-mzElOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PABvYVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PABvYlOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_UkwVOHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_UkwlOHEeWyFfONEPRMfA" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_4lcFOHEeWyFfONEPRMfA" type="2001" element="_O-mzFlOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_5MgFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_5MgVOHEeWyFfONEPRMfA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PACWcFOHEeWyFfONEPRMfA" type="3003" element="_O-mzF1OHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PACWcVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PACWclOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_4lcVOHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_4lclOHEeWyFfONEPRMfA" x="90" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_5zkFOHEeWyFfONEPRMfA" type="2001" element="_O-mzG1OHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_6aoFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_6aoVOHEeWyFfONEPRMfA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PADkkFOHEeWyFfONEPRMfA" type="3017" element="_O-mzHFOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PADkkVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PADkklOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_5zkVOHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_5zklOHEeWyFfONEPRMfA" x="180" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_6aolOHEeWyFfONEPRMfA" type="2001" element="_O-mzIFOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_7BsFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_7BsVOHEeWyFfONEPRMfA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAELoFOHEeWyFfONEPRMfA" type="3017" element="_O-mzIVOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAELoVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAELolOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_6ao1OHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_6apFOHEeWyFfONEPRMfA" x="270" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_9d8lOHEeWyFfONEPRMfA" type="2001" element="_O-mzL1OHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O_-FAFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O_-FAVOHEeWyFfONEPRMfA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAGA0FOHEeWyFfONEPRMfA" type="3002" element="_O-mzMFOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAGA0VOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAGA0lOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_9d81OHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_9d9FOHEeWyFfONEPRMfA" x="516" y="42" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O_-sEFOHEeWyFfONEPRMfA" type="2001" element="_O-mzNFOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O__TIFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O__TIVOHEeWyFfONEPRMfA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAGn4FOHEeWyFfONEPRMfA" type="3002" element="_O-mzNVOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAGn4VOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAGn4lOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O_-sEVOHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O_-sElOHEeWyFfONEPRMfA" x="516" y="96" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O__TIlOHEeWyFfONEPRMfA" type="2001" element="_O-mzOVOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_O__6MFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O__6MVOHEeWyFfONEPRMfA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAH2AFOHEeWyFfONEPRMfA" type="3014" element="_O-mzOlOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAH2AVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAH2AlOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O__TI1OHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O__TJFOHEeWyFfONEPRMfA" x="720" y="48" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_O__6MlOHEeWyFfONEPRMfA" type="2001" element="_O-mzPVOHEeWyFfONEPRMfA">
+            <children xmi:type="notation:Node" xmi:id="_PAAhQFOHEeWyFfONEPRMfA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_PAAhQVOHEeWyFfONEPRMfA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_PAIdEFOHEeWyFfONEPRMfA" type="3014" element="_O-mzPlOHEeWyFfONEPRMfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PAIdEVOHEeWyFfONEPRMfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAIdElOHEeWyFfONEPRMfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_O__6M1OHEeWyFfONEPRMfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O__6NFOHEeWyFfONEPRMfA" x="822" y="96" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_O_GiUlOHEeWyFfONEPRMfA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzEVOHEeWyFfONEPRMfA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Escenario" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0"/>
+        <semanticElements xmi:type="escenariosCalidad:Escenario" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_O-mzElOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzE1OHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzFFOHEeWyFfONEPRMfA" red="252" green="175" blue="62"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_O-mzFVOHEeWyFfONEPRMfA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzFlOHEeWyFfONEPRMfA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Escenario" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0"/>
+        <semanticElements xmi:type="escenariosCalidad:Escenario" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_O-mzF1OHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzGFOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzGVOHEeWyFfONEPRMfA" red="252" green="175" blue="62"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_O-mzGlOHEeWyFfONEPRMfA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Escenario']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzG1OHEeWyFfONEPRMfA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Fuente" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@fuente"/>
+        <semanticElements xmi:type="escenariosCalidad:Fuente" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@fuente"/>
+        <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_O-mzHFOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzHVOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzHlOHEeWyFfONEPRMfA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_O-mzH1OHEeWyFfONEPRMfA" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzIFOHEeWyFfONEPRMfA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Fuente" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@fuente"/>
+        <semanticElements xmi:type="escenariosCalidad:Fuente" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@fuente"/>
+        <ownedStyle xmi:type="diagram:Lozenge" xmi:id="_O-mzIVOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzIlOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzI1OHEeWyFfONEPRMfA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_O-mzJFOHEeWyFfONEPRMfA" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Fuente']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzJVOHEeWyFfONEPRMfA" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Arquitectura" href="escenario.escenarioscalidad#//@arquitecturas.0"/>
+        <semanticElements xmi:type="escenariosCalidad:Arquitectura" href="escenario.escenarioscalidad#//@arquitecturas.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_O-mzJlOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzJ1OHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Arquitectura']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_U8qs8FOHEeWyFfONEPRMfA" red="138" green="226" blue="52"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_U8qs8VOHEeWyFfONEPRMfA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Arquitectura']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzKlOHEeWyFfONEPRMfA" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Arquitectura" href="escenario.escenarioscalidad#//@arquitecturas.1"/>
+        <semanticElements xmi:type="escenariosCalidad:Arquitectura" href="escenario.escenarioscalidad#//@arquitecturas.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_O-mzK1OHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzLFOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Arquitectura']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_U8tJMFOHEeWyFfONEPRMfA" red="138" green="226" blue="52"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_U8tJMVOHEeWyFfONEPRMfA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Arquitectura']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzL1OHEeWyFfONEPRMfA" name="invalid" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Estimulo" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@estimulo"/>
+        <semanticElements xmi:type="escenariosCalidad:Estimulo" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@estimulo"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_O-mzMFOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzMVOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:DotDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzMlOHEeWyFfONEPRMfA"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzM1OHEeWyFfONEPRMfA" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzNFOHEeWyFfONEPRMfA" name="invalid" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:Estimulo" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@estimulo"/>
+        <semanticElements xmi:type="escenariosCalidad:Estimulo" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@estimulo"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_O-mzNVOHEeWyFfONEPRMfA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzNlOHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:DotDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzN1OHEeWyFfONEPRMfA"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzOFOHEeWyFfONEPRMfA" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='Estimulo']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzOVOHEeWyFfONEPRMfA" name="latency > 0.0 >" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:MedidaRespuesta" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@medida"/>
+        <semanticElements xmi:type="escenariosCalidad:MedidaRespuesta" href="escenario.escenarioscalidad#//@arquitecturas.0/@escenarios.0/@medida"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_O-mzOlOHEeWyFfONEPRMfA" id="MedidaRespuesta">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzO1OHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzPFOHEeWyFfONEPRMfA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_O-mzPVOHEeWyFfONEPRMfA" name="latency > 0.0 >" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="escenariosCalidad:MedidaRespuesta" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@medida"/>
+        <semanticElements xmi:type="escenariosCalidad:MedidaRespuesta" href="escenario.escenarioscalidad#//@arquitecturas.1/@escenarios.0/@medida"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_O-mzPlOHEeWyFfONEPRMfA" id="MedidaRespuesta">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzP1OHEeWyFfONEPRMfA"/>
+          <description xmi:type="style:CustomStyleDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O-mzQFOHEeWyFfONEPRMfA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer/@nodeMappings[name='MedidaRespuesta']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_O-mzQVOHEeWyFfONEPRMfA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']/@ownedRepresentations[name='Escenarios%20Calidad%20Diagram']/@defaultLayer"/>
+      <target xmi:type="escenariosCalidad:Test" href="escenario.escenarioscalidad#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/qualityAttributesView/description/qualityAttributesView.odesign#//@ownedViewpoints[name='qualityAttributes']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

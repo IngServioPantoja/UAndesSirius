@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenariosCalidad:Test xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:escenariosCalidad="http://www.example.org/escenariosCalidad">
+  <arquitecturas>
+    <escenarios>
+      <fuente/>
+      <estimulo/>
+      <medida/>
+    </escenarios>
+    <artefactos/>
+  </arquitecturas>
+  <arquitecturas>
+    <escenarios>
+      <fuente/>
+      <estimulo/>
+      <medida/>
+    </escenarios>
+    <artefactos/>
+  </arquitecturas>
+</escenariosCalidad:Test>

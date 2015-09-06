@@ -1,0 +1,87 @@
+/**
+ */
+package escenariosCalidad;
+
+import org.eclipse.emf.ecore.EFactory;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Factory</b> for the model.
+ * It provides a create method for each non-abstract class of the model.
+ * <!-- end-user-doc -->
+ * @see escenariosCalidad.EscenariosCalidadPackage
+ * @generated
+ */
+public interface EscenariosCalidadFactory extends EFactory {
+	/**
+	 * The singleton instance of the factory.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	EscenariosCalidadFactory eINSTANCE = escenariosCalidad.impl.EscenariosCalidadFactoryImpl.init();
+
+	/**
+	 * Returns a new object of class '<em>Arquitectura</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Arquitectura</em>'.
+	 * @generated
+	 */
+	Arquitectura createArquitectura();
+
+	/**
+	 * Returns a new object of class '<em>Escenario</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Escenario</em>'.
+	 * @generated
+	 */
+	Escenario createEscenario();
+
+	/**
+	 * Returns a new object of class '<em>Fuente</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Fuente</em>'.
+	 * @generated
+	 */
+	Fuente createFuente();
+
+	/**
+	 * Returns a new object of class '<em>Estimulo</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Estimulo</em>'.
+	 * @generated
+	 */
+	Estimulo createEstimulo();
+
+	/**
+	 * Returns a new object of class '<em>Medida Respuesta</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Medida Respuesta</em>'.
+	 * @generated
+	 */
+	MedidaRespuesta createMedidaRespuesta();
+
+	/**
+	 * Returns a new object of class '<em>Artefacto</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Artefacto</em>'.
+	 * @generated
+	 */
+	Artefacto createArtefacto();
+
+	/**
+	 * Returns the package supported by this factory.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the package supported by this factory.
+	 * @generated
+	 */
+	EscenariosCalidadPackage getEscenariosCalidadPackage();
+
+} //EscenariosCalidadFactory

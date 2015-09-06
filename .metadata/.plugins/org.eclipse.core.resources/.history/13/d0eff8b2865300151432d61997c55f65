@@ -1,0 +1,491 @@
+/**
+ */
+package escenariosCalidad.impl;
+
+import escenariosCalidad.Arquitectura;
+import escenariosCalidad.Artefacto;
+import escenariosCalidad.Escenario;
+import escenariosCalidad.EscenariosCalidadFactory;
+import escenariosCalidad.EscenariosCalidadPackage;
+import escenariosCalidad.Estimulo;
+import escenariosCalidad.Fuente;
+import escenariosCalidad.MedidaRespuesta;
+import escenariosCalidad.Metrica;
+import escenariosCalidad.Operador;
+import escenariosCalidad.Unidad;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EEnum;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+
+import org.eclipse.emf.ecore.impl.EPackageImpl;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model <b>Package</b>.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public class EscenariosCalidadPackageImpl extends EPackageImpl implements EscenariosCalidadPackage {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass arquitecturaEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass escenarioEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass fuenteEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass estimuloEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass medidaRespuestaEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass artefactoEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EEnum metricaEEnum = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EEnum operadorEEnum = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EEnum unidadEEnum = null;
+
+	/**
+	 * Creates an instance of the model <b>Package</b>, registered with
+	 * {@link org.eclipse.emf.ecore.EPackage.Registry EPackage.Registry} by the package
+	 * package URI value.
+	 * <p>Note: the correct way to create the package is via the static
+	 * factory method {@link #init init()}, which also performs
+	 * initialization of the package, or returns the registered package,
+	 * if one already exists.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.emf.ecore.EPackage.Registry
+	 * @see escenariosCalidad.EscenariosCalidadPackage#eNS_URI
+	 * @see #init()
+	 * @generated
+	 */
+	private EscenariosCalidadPackageImpl() {
+		super(eNS_URI, EscenariosCalidadFactory.eINSTANCE);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private static boolean isInited = false;
+
+	/**
+	 * Creates, registers, and initializes the <b>Package</b> for this model, and for any others upon which it depends.
+	 * 
+	 * <p>This method is used to initialize {@link EscenariosCalidadPackage#eINSTANCE} when that field is accessed.
+	 * Clients should not invoke it directly. Instead, they should simply access that field to obtain the package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #eNS_URI
+	 * @see #createPackageContents()
+	 * @see #initializePackageContents()
+	 * @generated
+	 */
+	public static EscenariosCalidadPackage init() {
+		if (isInited) return (EscenariosCalidadPackage)EPackage.Registry.INSTANCE.getEPackage(EscenariosCalidadPackage.eNS_URI);
+
+		// Obtain or create and register package
+		EscenariosCalidadPackageImpl theEscenariosCalidadPackage = (EscenariosCalidadPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof EscenariosCalidadPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new EscenariosCalidadPackageImpl());
+
+		isInited = true;
+
+		// Create package meta-data objects
+		theEscenariosCalidadPackage.createPackageContents();
+
+		// Initialize created meta-data
+		theEscenariosCalidadPackage.initializePackageContents();
+
+		// Mark meta-data to indicate it can't be changed
+		theEscenariosCalidadPackage.freeze();
+
+  
+		// Update the registry and return the package
+		EPackage.Registry.INSTANCE.put(EscenariosCalidadPackage.eNS_URI, theEscenariosCalidadPackage);
+		return theEscenariosCalidadPackage;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getArquitectura() {
+		return arquitecturaEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getArquitectura_Escenarios() {
+		return (EReference)arquitecturaEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getArquitectura_Artefactos() {
+		return (EReference)arquitecturaEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getEscenario() {
+		return escenarioEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getEscenario_Id() {
+		return (EAttribute)escenarioEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getEscenario_Fuente() {
+		return (EReference)escenarioEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getEscenario_Estimulo() {
+		return (EReference)escenarioEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getEscenario_Medida() {
+		return (EReference)escenarioEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getFuente() {
+		return fuenteEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getFuente_Name() {
+		return (EAttribute)fuenteEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getEstimulo() {
+		return estimuloEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getEstimulo_Artefacto() {
+		return (EReference)estimuloEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getMedidaRespuesta() {
+		return medidaRespuestaEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getMedidaRespuesta_Metrica() {
+		return (EAttribute)medidaRespuestaEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getMedidaRespuesta_ValorEsperado() {
+		return (EAttribute)medidaRespuestaEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getMedidaRespuesta_Unidad() {
+		return (EAttribute)medidaRespuestaEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getMedidaRespuesta_Operador() {
+		return (EAttribute)medidaRespuestaEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getArtefacto() {
+		return artefactoEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getArtefacto_Url() {
+		return (EAttribute)artefactoEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EEnum getMetrica() {
+		return metricaEEnum;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EEnum getOperador() {
+		return operadorEEnum;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EEnum getUnidad() {
+		return unidadEEnum;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EscenariosCalidadFactory getEscenariosCalidadFactory() {
+		return (EscenariosCalidadFactory)getEFactoryInstance();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private boolean isCreated = false;
+
+	/**
+	 * Creates the meta-model objects for the package.  This method is
+	 * guarded to have no affect on any invocation but its first.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void createPackageContents() {
+		if (isCreated) return;
+		isCreated = true;
+
+		// Create classes and their features
+		arquitecturaEClass = createEClass(ARQUITECTURA);
+		createEReference(arquitecturaEClass, ARQUITECTURA__ESCENARIOS);
+		createEReference(arquitecturaEClass, ARQUITECTURA__ARTEFACTOS);
+
+		escenarioEClass = createEClass(ESCENARIO);
+		createEAttribute(escenarioEClass, ESCENARIO__ID);
+		createEReference(escenarioEClass, ESCENARIO__FUENTE);
+		createEReference(escenarioEClass, ESCENARIO__ESTIMULO);
+		createEReference(escenarioEClass, ESCENARIO__MEDIDA);
+
+		fuenteEClass = createEClass(FUENTE);
+		createEAttribute(fuenteEClass, FUENTE__NAME);
+
+		estimuloEClass = createEClass(ESTIMULO);
+		createEReference(estimuloEClass, ESTIMULO__ARTEFACTO);
+
+		medidaRespuestaEClass = createEClass(MEDIDA_RESPUESTA);
+		createEAttribute(medidaRespuestaEClass, MEDIDA_RESPUESTA__METRICA);
+		createEAttribute(medidaRespuestaEClass, MEDIDA_RESPUESTA__VALOR_ESPERADO);
+		createEAttribute(medidaRespuestaEClass, MEDIDA_RESPUESTA__UNIDAD);
+		createEAttribute(medidaRespuestaEClass, MEDIDA_RESPUESTA__OPERADOR);
+
+		artefactoEClass = createEClass(ARTEFACTO);
+		createEAttribute(artefactoEClass, ARTEFACTO__URL);
+
+		// Create enums
+		metricaEEnum = createEEnum(METRICA);
+		operadorEEnum = createEEnum(OPERADOR);
+		unidadEEnum = createEEnum(UNIDAD);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private boolean isInitialized = false;
+
+	/**
+	 * Complete the initialization of the package and its meta-model.  This
+	 * method is guarded to have no affect on any invocation but its first.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void initializePackageContents() {
+		if (isInitialized) return;
+		isInitialized = true;
+
+		// Initialize package
+		setName(eNAME);
+		setNsPrefix(eNS_PREFIX);
+		setNsURI(eNS_URI);
+
+		// Create type parameters
+
+		// Set bounds for type parameters
+
+		// Add supertypes to classes
+
+		// Initialize classes, features, and operations; add parameters
+		initEClass(arquitecturaEClass, Arquitectura.class, "Arquitectura", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getArquitectura_Escenarios(), this.getEscenario(), null, "escenarios", null, 0, -1, Arquitectura.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getArquitectura_Artefactos(), this.getArtefacto(), null, "artefactos", null, 0, -1, Arquitectura.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(escenarioEClass, Escenario.class, "Escenario", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getEscenario_Id(), ecorePackage.getEString(), "id", null, 0, 1, Escenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getEscenario_Fuente(), this.getFuente(), null, "fuente", null, 1, 1, Escenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getEscenario_Estimulo(), this.getEstimulo(), null, "estimulo", null, 1, 1, Escenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getEscenario_Medida(), this.getMedidaRespuesta(), null, "medida", null, 1, 1, Escenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(fuenteEClass, Fuente.class, "Fuente", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getFuente_Name(), ecorePackage.getEString(), "name", null, 0, 1, Fuente.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(estimuloEClass, Estimulo.class, "Estimulo", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getEstimulo_Artefacto(), this.getArtefacto(), null, "artefacto", null, 1, 1, Estimulo.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(medidaRespuestaEClass, MedidaRespuesta.class, "MedidaRespuesta", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getMedidaRespuesta_Metrica(), this.getMetrica(), "metrica", null, 0, 1, MedidaRespuesta.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMedidaRespuesta_ValorEsperado(), ecorePackage.getEDouble(), "valorEsperado", null, 0, 1, MedidaRespuesta.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMedidaRespuesta_Unidad(), this.getUnidad(), "unidad", null, 0, 1, MedidaRespuesta.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMedidaRespuesta_Operador(), this.getOperador(), "operador", null, 0, 1, MedidaRespuesta.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(artefactoEClass, Artefacto.class, "Artefacto", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getArtefacto_Url(), ecorePackage.getEString(), "url", null, 0, 1, Artefacto.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		// Initialize enums and add enum literals
+		initEEnum(metricaEEnum, Metrica.class, "Metrica");
+		addEEnumLiteral(metricaEEnum, Metrica.LATENCY);
+		addEEnumLiteral(metricaEEnum, Metrica.THROUGHPUT);
+		addEEnumLiteral(metricaEEnum, Metrica.ERROR_PERCENTAGE);
+		addEEnumLiteral(metricaEEnum, Metrica.RESPONSE_CODE);
+
+		initEEnum(operadorEEnum, Operador.class, "Operador");
+		addEEnumLiteral(operadorEEnum, Operador.GT);
+		addEEnumLiteral(operadorEEnum, Operador.LT);
+		addEEnumLiteral(operadorEEnum, Operador.GTE);
+		addEEnumLiteral(operadorEEnum, Operador.LTE);
+		addEEnumLiteral(operadorEEnum, Operador.E);
+
+		initEEnum(unidadEEnum, Unidad.class, "Unidad");
+		addEEnumLiteral(unidadEEnum, Unidad.SEGUNDOS);
+		addEEnumLiteral(unidadEEnum, Unidad.MS);
+		addEEnumLiteral(unidadEEnum, Unidad.REQUEST);
+
+		// Create resource
+		createResource(eNS_URI);
+	}
+
+} //EscenariosCalidadPackageImpl

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:modisco.xml="http://www.eclipse.org/MoDisco/Xml/0.1.incubation/XML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" xmi:id="_gejHsFK2EeWx2M94v8q_gg" selectedViews="_8DBT4FK3EeWx2M94v8q_gg" version="8.1.1">
+  <models xmi:type="modisco.xml:Root" href="plugin.xml#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_8DBT4FK3EeWx2M94v8q_gg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="description/petrinet.odesign#//@ownedViewpoints[name='petrinet']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

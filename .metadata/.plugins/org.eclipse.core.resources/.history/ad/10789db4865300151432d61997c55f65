@@ -1,0 +1,51 @@
+#
+
+pluginName = EscenariosCalidad Edit Support
+providerName = www.example.org
+
+_UI_CreateChild_text = {0}
+_UI_CreateChild_text2 = {1} {0}
+_UI_CreateChild_text3 = {1}
+_UI_CreateChild_tooltip = Create New {0} Under {1} Feature
+_UI_CreateChild_description = Create a new child of type {0} for the {1} feature of the selected {2}.
+_UI_CreateSibling_description = Create a new sibling of type {0} for the selected {2}, under the {1} feature of their parent.
+
+_UI_PropertyDescriptor_description = The {0} of the {1}
+
+_UI_Arquitectura_type = Arquitectura
+_UI_Escenario_type = Escenario
+_UI_Fuente_type = Fuente
+_UI_Estimulo_type = Estimulo
+_UI_MedidaRespuesta_type = Medida Respuesta
+_UI_Artefacto_type = Artefacto
+_UI_Unknown_type = Object
+
+_UI_Unknown_datatype= Value
+
+_UI_Arquitectura_escenarios_feature = Escenarios
+_UI_Arquitectura_artefactos_feature = Artefactos
+_UI_Escenario_id_feature = Id
+_UI_Escenario_fuente_feature = Fuente
+_UI_Escenario_estimulo_feature = Estimulo
+_UI_Escenario_medida_feature = Medida
+_UI_Fuente_name_feature = Name
+_UI_Estimulo_artefacto_feature = Artefacto
+_UI_MedidaRespuesta_metrica_feature = Metrica
+_UI_MedidaRespuesta_valorEsperado_feature = Valor Esperado
+_UI_MedidaRespuesta_unidad_feature = Unidad
+_UI_MedidaRespuesta_operador_feature = Operador
+_UI_Artefacto_url_feature = Url
+_UI_Unknown_feature = Unspecified
+
+_UI_Metrica_latency_literal = latency
+_UI_Metrica_throughput_literal = throughput
+_UI_Metrica_errorPercentage_literal = errorPercentage
+_UI_Metrica_responseCode_literal = responseCode
+_UI_Operador_GT_literal = >
+_UI_Operador_LT_literal = <
+_UI_Operador_GTE_literal = >=
+_UI_Operador_LTE_literal = <=
+_UI_Operador_E_literal = =
+_UI_Unidad_segundos_literal = segundos
+_UI_Unidad_ms_literal = ms
+_UI_Unidad_request_literal = request
